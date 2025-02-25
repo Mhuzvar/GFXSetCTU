@@ -1,6 +1,6 @@
 '''
-This script is meant to be used in synchronization of signals when recording data for guitar amp/effect dataset under <website>.
-Version: 0.2.1
+This script is meant to be used in synchronization of signals when recording data for guitar amp/effect dataset under https://github.com/Mhuzvar/GFXSetCTU.
+Version: 0.2.2
 
 Matej Huzvar
 huzvamat@fel.cvut.cz
@@ -85,7 +85,7 @@ def gui_sync(sig1, sig2):
         startplot = int(input(f"Current start index: {startplot}, New start index: "))
         sig2 = np.roll(sig2, -newlag)
 
-def nudge_file(filename, indir, outdir, n):     # check function
+def nudge_file(filename, indir, outdir, n):
     sig, fs = sf.read(os.path.join(indir, filename))
     sig = np.roll(sig, -n)
     sf.write(os.path.join(outdir, filename), sig, fs)
@@ -93,10 +93,6 @@ def nudge_file(filename, indir, outdir, n):     # check function
 def check_dim(filename):
     filename = filename[8:-16]
     dim = len(filename.split('_'))
-    #for f in filename:
-    #    if f=='_':
-    #        dim+=1
-    #dim+=1
     return dim
 
 def opstr(data, idx):
@@ -159,7 +155,6 @@ def sync_folder(instfile, indir, outdir):       # finish
         syncdata = sdata(filelist)
 
         i = 0
-        #while keepgoing:
         for i, f in enumerate(filelist):
             j = syncdata.devs.index(f[3:7])
             idx = syncdata.data[j].find_idx(f[8:-16])
@@ -199,7 +194,7 @@ def sync_folder(instfile, indir, outdir):       # finish
             sf.write(os.path.join(outdir, f), sig, fs)
 
 def cut_folder(instfile, indir, outdir, lvls):
-    n, fs = sf.read('dataset/dataset_final/raw/noise.wav')
+    n, fs = sf.read('dataset/raw/noise.wav')
     with open(instfile, 'r') as slens:
         sl = slens.readlines()
         sl = [(f.split(' ')[0], int(f.split(' ')[1])) for f in sl]      # sigs and lens in (signame, len) formatted tuple
@@ -224,7 +219,7 @@ def cut_folder(instfile, indir, outdir, lvls):
                 nudges.append(gui_sync(n, sig[:n.size]))
                 nudge = nudges[-1]
 
-            sig = sig[nudge:]                                           # removing samples at beginning
+            sig = sig[nudge:]                                           # removing samples at the beginning
 
             if not os.path.exists(fdir):
                 os.makedirs(fdir)
@@ -245,13 +240,20 @@ def cut_folder(instfile, indir, outdir, lvls):
                 keepgoing = False
 
 def main():
+    indir = 'dataset/to_sync'
+    syncdir = 'dataset/to_cut'
+    outdir = 'dataset/labels'
+    lendatapath = 'dataset/siglens.txt'
+
     print("\n============\nWarning!\nThis program works with unchecked inputs! Make sure inputs are in correct format and of reasonable values.\n============\n")
     mode = int(input("Modes:\n0 = synchronization\n1 = finalizing synchronized folder\nSelect one: "))
     if not mode:
-        # syncing folder
-        sync_folder('dataset/dataset_final/siglens.txt', 'dataset/dataset_final/to_sync', 'dataset/dataset_final/to_cut')
+        if not(os.path.isdir(outdir)):
+            os.makedirs(syncdir)
+        sync_folder(lendatapath, indir, syncdir)
     else:
-        cut_folder('dataset/dataset_final/siglens.txt', 'dataset/dataset_final/to_cut', 'dataset/dataset_final/labels', ['30', '00'])
+
+        cut_folder(lendatapath, syncdir, outdir, ['30', '00'])
         
 
 if __name__=="__main__":
