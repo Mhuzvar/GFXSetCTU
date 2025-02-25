@@ -1,0 +1,1421 @@
+<REAPER_PROJECT 0.1 "6.78/win64" 1740163844
+  <NOTES 0 2
+  >
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 129
+  ENVATTACH 3
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 48
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 0
+  GRID 3199 8 1 8 1 0 0 0
+  TIMEMODE 1 5 -1 30 0 0 -1
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  CURSOR 0
+  ZOOM 0.81835494322477 0 0
+  VZOOMEX 8.54875183 0
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "" ""
+  <RECORD_CFG
+    ZXZhdxgBAQ==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN ""
+  RENDER_FMT 0 2 0
+  RENDER_1X 0
+  RENDER_RANGE 1 0 0 18 1000
+  RENDER_RESAMPLE 10 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 1
+  DEFPITCHMODE 589824 0
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+    ZXZhdxgAAQ==
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    FREQ 800 1600 1
+    BEATLEN 4
+    SAMPLES "" ""
+    PATTERN 2863311530 2863311529
+    MULT 1
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 2688 2688
+  SELECTION2 2688 2688
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_PANMODE 3
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    EGUID {EFC597DE-C19A-40C7-B977-CCBBBEA926D4}
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    EGUID {18E6C02F-2DD6-444B-AE71-9693681BEE39}
+    ACT 0 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  MARKER 1 3537 !1016 0 0 1 R {6A2D3C7F-B3B2-46C0-D977-A18ED7D55968}
+  <PROJBAY
+  >
+  <TRACK {6DB360E7-E50F-46EC-BF3F-3C5B042B81FC}
+    NAME raw
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {6DB360E7-E50F-46EC-BF3F-3C5B042B81FC}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    HWOUT 1026 0 1 0 0 0 0 -1:U -1
+    HWOUT 1027 0 0.25118864315096 0 0 0 0 -1:U -1
+    HWOUT 1028 0 1 0 0 0 0 -1:U -1
+    HWOUT 1029 0 1 0 0 0 0 -1:U -1
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 1
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EEA45D1F-BC6A-487C-B259-D5A507E49EE5}
+      IID 209
+      NAME noise_30.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {ADC87407-EF21-4D8F-97D9-8CB033B5C1DE}
+      <SOURCE WAVE
+        FILE "noise_30.wav"
+      >
+    >
+    <ITEM
+      POSITION 2
+      SNAPOFFS 0
+      LENGTH 63
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FB9A6CF9-6F2F-488C-9ADD-CCCFECA886E0}
+      IID 210
+      NAME Seq1_6_30.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {71029DA1-BCEA-448D-A399-57513BA1A4A4}
+      <SOURCE WAVE
+        FILE "Seq1_6_30.wav"
+      >
+    >
+    <ITEM
+      POSITION 66
+      SNAPOFFS 0
+      LENGTH 88.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D146AF5A-F1B2-4E10-B22F-27C57FED7923}
+      IID 211
+      NAME Seq1_7_30.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D97BB9EE-CC52-49E7-9124-58B5CBE34F43}
+      <SOURCE WAVE
+        FILE "Seq1_7_30.wav"
+      >
+    >
+    <ITEM
+      POSITION 155.5
+      SNAPOFFS 0
+      LENGTH 101
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1F413FC3-A58E-4C85-8EB2-E010D534FC61}
+      IID 212
+      NAME Seq1_8_30.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A005CB52-C769-4AB0-82B7-2AA5EAD06B30}
+      <SOURCE WAVE
+        FILE "Seq1_8_30.wav"
+      >
+    >
+    <ITEM
+      POSITION 257.5
+      SNAPOFFS 0
+      LENGTH 63.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FA91B4B0-C2B5-4D56-90D0-353568F00AAC}
+      IID 213
+      NAME Seq1_12_30.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9F074A5B-7A7D-4AE3-9AEA-421F9A0022E5}
+      <SOURCE WAVE
+        FILE "Seq1_12_30.wav"
+      >
+    >
+    <ITEM
+      POSITION 322
+      SNAPOFFS 0
+      LENGTH 17.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A6DE79F1-4948-4015-81A8-82B708428499}
+      IID 214
+      NAME Seq2_6_30.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C5CA542C-03FF-46CF-80A5-E7305A2AD1A4}
+      <SOURCE WAVE
+        FILE "Seq2_6_30.wav"
+      >
+    >
+    <ITEM
+      POSITION 340.5
+      SNAPOFFS 0
+      LENGTH 21.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C5D02C2D-8559-476E-B696-DCC124EC127F}
+      IID 215
+      NAME Seq2_7_30.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E4D1F62A-2EF3-4C6C-A42E-61C2251EA1F1}
+      <SOURCE WAVE
+        FILE "Seq2_7_30.wav"
+      >
+    >
+    <ITEM
+      POSITION 363
+      SNAPOFFS 0
+      LENGTH 23.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FD3C6AE1-D777-47A0-89EE-27FC7F66A318}
+      IID 216
+      NAME Seq2_8_30.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {924F4AEB-EBE6-444D-A981-5EBD833AC39B}
+      <SOURCE WAVE
+        FILE "Seq2_8_30.wav"
+      >
+    >
+    <ITEM
+      POSITION 387.5
+      SNAPOFFS 0
+      LENGTH 17.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CDE7800D-EE29-4F6A-8C44-6551026549F0}
+      IID 217
+      NAME Seq2_12_30.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {59FD6E80-4E62-4660-B994-A97B652BFD6F}
+      <SOURCE WAVE
+        FILE "Seq2_12_30.wav"
+      >
+    >
+    <ITEM
+      POSITION 406
+      SNAPOFFS 0
+      LENGTH 21.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0AF5E23D-D76E-482A-A739-3CC0506D9583}
+      IID 218
+      NAME Seq3_6_30.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EF6F248D-CD9F-4E12-A7C2-C5D3377D75EC}
+      <SOURCE WAVE
+        FILE "Seq3_6_30.wav"
+      >
+    >
+    <ITEM
+      POSITION 428.5
+      SNAPOFFS 0
+      LENGTH 26.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F997DB7F-232F-476B-A2C3-2C14C02014B8}
+      IID 219
+      NAME Seq3_7_30.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E92D2B90-4BA6-467D-8846-A1F9C3DACFE7}
+      <SOURCE WAVE
+        FILE "Seq3_7_30.wav"
+      >
+    >
+    <ITEM
+      POSITION 456
+      SNAPOFFS 0
+      LENGTH 31.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {37CCA384-D7B9-4E49-8D8F-64921AE5BCE4}
+      IID 220
+      NAME Seq3_8_30.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C757D2F7-BFBE-4F4C-A13A-206233278B5E}
+      <SOURCE WAVE
+        FILE "Seq3_8_30.wav"
+      >
+    >
+    <ITEM
+      POSITION 488.5
+      SNAPOFFS 0
+      LENGTH 21.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {97F5BDBA-B43C-4EFC-9CD1-84A06EE41633}
+      IID 221
+      NAME Seq3_12_30.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B8B0E6C3-D838-44D9-B75D-C26D0691E284}
+      <SOURCE WAVE
+        FILE "Seq3_12_30.wav"
+      >
+    >
+    <ITEM
+      POSITION 511
+      SNAPOFFS 0
+      LENGTH 17
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E0964422-2CFB-4A4A-B18B-EA46B35BD211}
+      IID 222
+      NAME Seq4_6_30.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C96B7436-3515-4D06-B35F-BD4697BE05FE}
+      <SOURCE WAVE
+        FILE "Seq4_6_30.wav"
+      >
+    >
+    <ITEM
+      POSITION 529
+      SNAPOFFS 0
+      LENGTH 17
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {15648A2C-EE46-4DD3-A5F0-E2C3C800FD6C}
+      IID 223
+      NAME Seq4_7_30.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EEECE77F-69E3-4495-9619-86D92BF8271F}
+      <SOURCE WAVE
+        FILE "Seq4_7_30.wav"
+      >
+    >
+    <ITEM
+      POSITION 547
+      SNAPOFFS 0
+      LENGTH 17
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4707504D-C86F-4317-BB47-4D6F7A01C5C5}
+      IID 224
+      NAME Seq4_8_30.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {925F11D5-1812-465A-9B96-A977382C2E75}
+      <SOURCE WAVE
+        FILE "Seq4_8_30.wav"
+      >
+    >
+    <ITEM
+      POSITION 565
+      SNAPOFFS 0
+      LENGTH 17
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2714107E-93EE-4B3B-9A16-C655DBFA0FFD}
+      IID 225
+      NAME Seq4_12_30.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {95A86F51-5103-4A27-A979-A1304CA66B07}
+      <SOURCE WAVE
+        FILE "Seq4_12_30.wav"
+      >
+    >
+    <ITEM
+      POSITION 583
+      SNAPOFFS 0
+      LENGTH 11.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7E538462-C771-46FB-921F-B04303F801E8}
+      IID 226
+      NAME Seq5_6_30.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F347945B-A139-45D6-913B-614B271D96CE}
+      <SOURCE WAVE
+        FILE "Seq5_6_30.wav"
+      >
+    >
+    <ITEM
+      POSITION 595.5
+      SNAPOFFS 0
+      LENGTH 15
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EBAB9A03-9F0F-42AB-840D-9833A3E84F49}
+      IID 227
+      NAME Seq5_7_30.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {495BF254-232B-4856-9949-51CC20F63924}
+      <SOURCE WAVE
+        FILE "Seq5_7_30.wav"
+      >
+    >
+    <ITEM
+      POSITION 611.5
+      SNAPOFFS 0
+      LENGTH 17
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {69FD178D-CE62-4645-B181-3DA5708D7996}
+      IID 228
+      NAME Seq5_8_30.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {254BC93A-9DAE-40A2-8EB5-4811E12488CA}
+      <SOURCE WAVE
+        FILE "Seq5_8_30.wav"
+      >
+    >
+    <ITEM
+      POSITION 629.5
+      SNAPOFFS 0
+      LENGTH 11.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {33C8CECE-E904-4A30-9047-1A980B9B9492}
+      IID 229
+      NAME Seq5_12_30.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {626586E2-8F87-4DD2-8301-5DF9FE440800}
+      <SOURCE WAVE
+        FILE "Seq5_12_30.wav"
+      >
+    >
+    <ITEM
+      POSITION 642
+      SNAPOFFS 0
+      LENGTH 225
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FC1AA829-C06F-422A-A099-2CE8220B747E}
+      IID 230
+      NAME Seq6_6_30.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {71ED6992-EC98-4211-BBA1-AF37ACA2BC84}
+      <SOURCE WAVE
+        FILE "Seq6_6_30.wav"
+      >
+    >
+    <ITEM
+      POSITION 868
+      SNAPOFFS 0
+      LENGTH 292
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B11808BB-A5C8-4831-A7A9-2B23AF822408}
+      IID 231
+      NAME Seq6_7_30.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E1F45F1C-49C0-4E78-84A9-221DE15E7E82}
+      <SOURCE WAVE
+        FILE "Seq6_7_30.wav"
+      >
+    >
+    <ITEM
+      POSITION 1161
+      SNAPOFFS 0
+      LENGTH 343.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {350901DB-2779-4774-B6EE-251E0208836A}
+      IID 232
+      NAME Seq6_8_30.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0D0DCA73-F000-4F39-B590-C6564E05EDF8}
+      <SOURCE WAVE
+        FILE "Seq6_8_30.wav"
+      >
+    >
+    <ITEM
+      POSITION 1505.5
+      SNAPOFFS 0
+      LENGTH 225
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BF2C7F26-FD2A-4A74-A8A2-B4AB94A1D679}
+      IID 233
+      NAME Seq6_12_30.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {586A13B1-8E0E-4F11-A2BF-C8C7EBA0E620}
+      <SOURCE WAVE
+        FILE "Seq6_12_30.wav"
+      >
+    >
+    <ITEM
+      POSITION 1731.5
+      SNAPOFFS 0
+      LENGTH 2
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B312D603-3318-4728-8272-59273C1D7370}
+      IID 234
+      NAME ss_30.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BFE0D881-EC95-4CDA-8A4C-D6A788747D9D}
+      <SOURCE WAVE
+        FILE "ss_30.wav"
+      >
+    >
+    <ITEM
+      POSITION 1734.5
+      SNAPOFFS 0
+      LENGTH 1
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8E49E065-7FA8-46E0-91F3-577AAD57FE6E}
+      IID 27
+      NAME noise_00.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7F82766E-6F68-4034-8A2D-D10EB48C8596}
+      <SOURCE WAVE
+        FILE "noise_00.wav"
+      >
+    >
+    <ITEM
+      POSITION 1736.5
+      SNAPOFFS 0
+      LENGTH 63
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F6243FB6-9FA5-4697-8D8C-CB3B56A7D495}
+      IID 28
+      NAME Seq1_6_00.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8CEEED21-C7A3-499A-8EC1-724EB7FE1C15}
+      <SOURCE WAVE
+        FILE "Seq1_6_00.wav"
+      >
+    >
+    <ITEM
+      POSITION 1800.5
+      SNAPOFFS 0
+      LENGTH 88.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0B618B1F-DF76-4418-8D87-431EDADFDFF7}
+      IID 29
+      NAME Seq1_7_00.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {57EFC136-3872-4D89-B650-446A567A6F0A}
+      <SOURCE WAVE
+        FILE "Seq1_7_00.wav"
+      >
+    >
+    <ITEM
+      POSITION 1890
+      SNAPOFFS 0
+      LENGTH 101
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8346E7EC-F04F-49A5-ADC3-456ACE81B377}
+      IID 30
+      NAME Seq1_8_00.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {409F00D0-4F08-4D64-A069-998BF6430D77}
+      <SOURCE WAVE
+        FILE "Seq1_8_00.wav"
+      >
+    >
+    <ITEM
+      POSITION 1992
+      SNAPOFFS 0
+      LENGTH 63.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8FB828F0-E520-4E10-B655-A586D48848D5}
+      IID 31
+      NAME Seq1_12_00.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9F415EEE-C5CF-478F-BDF8-A44C87057208}
+      <SOURCE WAVE
+        FILE "Seq1_12_00.wav"
+      >
+    >
+    <ITEM
+      POSITION 2056.5
+      SNAPOFFS 0
+      LENGTH 17.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C407681E-7CB4-46F4-B4EC-9237DA857431}
+      IID 32
+      NAME Seq2_6_00.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9E04B914-48FD-4408-8000-C91ED3D55CF7}
+      <SOURCE WAVE
+        FILE "Seq2_6_00.wav"
+      >
+    >
+    <ITEM
+      POSITION 2075
+      SNAPOFFS 0
+      LENGTH 21.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {62E93832-0F75-4BAB-8603-C593A31ABA19}
+      IID 33
+      NAME Seq2_7_00.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {853D40C0-0E72-477C-BB69-2E6D31546540}
+      <SOURCE WAVE
+        FILE "Seq2_7_00.wav"
+      >
+    >
+    <ITEM
+      POSITION 2097.5
+      SNAPOFFS 0
+      LENGTH 23.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {23EE411D-9219-4127-A9C5-CFD8FD34C00E}
+      IID 34
+      NAME Seq2_8_00.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FDEB8481-8B52-4118-8DE4-CC9566D7C5C8}
+      <SOURCE WAVE
+        FILE "Seq2_8_00.wav"
+      >
+    >
+    <ITEM
+      POSITION 2122
+      SNAPOFFS 0
+      LENGTH 17.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {35071646-25C6-4AAA-91BD-898B064CAE82}
+      IID 35
+      NAME Seq2_12_00.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C91191ED-5FF8-4D45-982A-98FD5EA262CC}
+      <SOURCE WAVE
+        FILE "Seq2_12_00.wav"
+      >
+    >
+    <ITEM
+      POSITION 2140.5
+      SNAPOFFS 0
+      LENGTH 21.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FB267F22-A4A1-420C-9EDD-1ADEE8BC0353}
+      IID 36
+      NAME Seq3_6_00.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8E12B7AE-1824-4B9D-AF9A-0CA56E42EABF}
+      <SOURCE WAVE
+        FILE "Seq3_6_00.wav"
+      >
+    >
+    <ITEM
+      POSITION 2163
+      SNAPOFFS 0
+      LENGTH 26.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A74EA200-3BF7-4B26-9B67-600EC7F6F58F}
+      IID 37
+      NAME Seq3_7_00.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1CD4EA36-DFF1-4B03-80D0-F07281BC7112}
+      <SOURCE WAVE
+        FILE "Seq3_7_00.wav"
+      >
+    >
+    <ITEM
+      POSITION 2190.5
+      SNAPOFFS 0
+      LENGTH 31.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9A1A30E9-AB01-4EEC-83A0-603065FDE1A0}
+      IID 38
+      NAME Seq3_8_00.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1755D211-B45F-4947-A2F9-596FCC692ED1}
+      <SOURCE WAVE
+        FILE "Seq3_8_00.wav"
+      >
+    >
+    <ITEM
+      POSITION 2223
+      SNAPOFFS 0
+      LENGTH 21.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1DBCE7CC-267C-4881-8EA0-9D92A3E09E68}
+      IID 39
+      NAME Seq3_12_00.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8BF31BAD-DBB3-4654-816D-775D0FAD13C9}
+      <SOURCE WAVE
+        FILE "Seq3_12_00.wav"
+      >
+    >
+    <ITEM
+      POSITION 2245.5
+      SNAPOFFS 0
+      LENGTH 17
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A5584D49-A350-49E7-9BE4-57C1EB75BE72}
+      IID 40
+      NAME Seq4_6_00.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BB69D3B5-2FD2-42CB-A7F1-297B28940284}
+      <SOURCE WAVE
+        FILE "Seq4_6_00.wav"
+      >
+    >
+    <ITEM
+      POSITION 2263.5
+      SNAPOFFS 0
+      LENGTH 17
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6AB29AA9-7744-4588-BB08-4EB9CFB743C0}
+      IID 41
+      NAME Seq4_7_00.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {500FD4F5-D7C2-4527-A02D-A3DFDF38FCE6}
+      <SOURCE WAVE
+        FILE "Seq4_7_00.wav"
+      >
+    >
+    <ITEM
+      POSITION 2281.5
+      SNAPOFFS 0
+      LENGTH 17
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C6393948-9551-41E6-AA12-CEB3131AC526}
+      IID 42
+      NAME Seq4_8_00.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {458C7840-428B-427E-B834-66E3E2A45007}
+      <SOURCE WAVE
+        FILE "Seq4_8_00.wav"
+      >
+    >
+    <ITEM
+      POSITION 2299.5
+      SNAPOFFS 0
+      LENGTH 17
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {472ABAAB-C871-480C-99CF-E5BC9FA5E2C8}
+      IID 43
+      NAME Seq4_12_00.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {064D08BA-8994-4536-AF11-25C8C92AFC26}
+      <SOURCE WAVE
+        FILE "Seq4_12_00.wav"
+      >
+    >
+    <ITEM
+      POSITION 2317.5
+      SNAPOFFS 0
+      LENGTH 11.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BACA91F9-F675-49D5-A87A-042510FD2B4A}
+      IID 44
+      NAME Seq5_6_00.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E527451B-1C38-43DB-AD28-9164D847D0EC}
+      <SOURCE WAVE
+        FILE "Seq5_6_00.wav"
+      >
+    >
+    <ITEM
+      POSITION 2330
+      SNAPOFFS 0
+      LENGTH 15
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {67671EEF-F184-498D-AA2C-BFB88B3D8235}
+      IID 45
+      NAME Seq5_7_00.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B07D1108-752C-45F7-B490-2BD7A1458922}
+      <SOURCE WAVE
+        FILE "Seq5_7_00.wav"
+      >
+    >
+    <ITEM
+      POSITION 2346
+      SNAPOFFS 0
+      LENGTH 17
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1E967C59-A65B-401B-9326-BBA6E84DCFCD}
+      IID 46
+      NAME Seq5_8_00.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3A339618-B1BB-447E-8363-B98124C648B1}
+      <SOURCE WAVE
+        FILE "Seq5_8_00.wav"
+      >
+    >
+    <ITEM
+      POSITION 2364
+      SNAPOFFS 0
+      LENGTH 11.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {03438F15-238F-4B8F-BDF9-F22636996E93}
+      IID 47
+      NAME Seq5_12_00.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {60CE5E26-78A1-4C70-8585-237AB317694A}
+      <SOURCE WAVE
+        FILE "Seq5_12_00.wav"
+      >
+    >
+    <ITEM
+      POSITION 2376.5
+      SNAPOFFS 0
+      LENGTH 225
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9B680654-E7E5-4BD5-A9CF-3A5EA13FD03D}
+      IID 48
+      NAME Seq6_6_00.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BE57EA02-7143-4520-8639-DA447FD320F2}
+      <SOURCE WAVE
+        FILE "Seq6_6_00.wav"
+      >
+    >
+    <ITEM
+      POSITION 2602.5
+      SNAPOFFS 0
+      LENGTH 292
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CFF9D379-0116-460D-8B40-0689C5770F6E}
+      IID 49
+      NAME Seq6_7_00.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2496BAD6-8E88-4059-B33E-4D332DAC4AE8}
+      <SOURCE WAVE
+        FILE "Seq6_7_00.wav"
+      >
+    >
+    <ITEM
+      POSITION 2895.5
+      SNAPOFFS 0
+      LENGTH 343.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5A74768C-DB96-476C-B85F-48099B45BF63}
+      IID 50
+      NAME Seq6_8_00.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7846A78B-53C7-486D-8DF0-59AA97050C31}
+      <SOURCE WAVE
+        FILE "Seq6_8_00.wav"
+      >
+    >
+    <ITEM
+      POSITION 3240
+      SNAPOFFS 0
+      LENGTH 225
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BF94A044-E7F0-4B67-9C15-D5B0574D2363}
+      IID 51
+      NAME Seq6_12_00.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {40F585E6-DEB9-40D2-8D73-9AB93426CDEE}
+      <SOURCE WAVE
+        FILE "Seq6_12_00.wav"
+      >
+    >
+    <ITEM
+      POSITION 3466
+      SNAPOFFS 0
+      LENGTH 2
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0D77D475-3586-4C50-89CD-32370C911E03}
+      IID 52
+      NAME ss_00.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BF117CC4-8AE7-4D50-A5CB-3FDA53A75ECE}
+      <SOURCE WAVE
+        FILE "ss_00.wav"
+      >
+    >
+  >
+  <TRACK {35D868A4-5EF8-4385-A2A6-A5470ABA6C59}
+    NAME bds1_10_10
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
+    REC 0 2 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {35D868A4-5EF8-4385-A2A6-A5470ABA6C59}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <TRACK {0BCAD05A-F6D6-CC4F-28CD-CF5849618DA8}
+    NAME lumb_00_09
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
+    REC 0 3 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {0BCAD05A-F6D6-CC4F-28CD-CF5849618DA8}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <TRACK {95AF8787-C671-8934-48B8-3CEEF62A6B94}
+    NAME keds_sc_00_04
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 1
+    REC 1 4 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {95AF8787-C671-8934-48B8-3CEEF62A6B94}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 3537.0418594104308
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {1DE2E438-97ED-4FEB-B116-339764D45EE1}
+      IID 399
+      NAME 04-keds_sc_00_04-250221_1723.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {34F7EACB-1BB3-4D66-8F29-EA3F15EBBD08}
+      RECPASS 72
+      <SOURCE WAVE
+        FILE "04-keds_sc_00_04-250221_1723.wav"
+      >
+    >
+  >
+  <TRACK {80544283-51BD-6516-94A1-64DED0B9EA0E}
+    NAME eqsd_up_02_00_04
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
+    REC 1 5 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {80544283-51BD-6516-94A1-64DED0B9EA0E}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 3537.0418594104308
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {A49DB235-2698-49D2-B229-81525576E902}
+      IID 400
+      NAME 05-eqsd_up_02_00_04-250221_1723.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {ABCBF56E-B889-4207-9A2A-803EEFEA5283}
+      RECPASS 72
+      <SOURCE WAVE
+        FILE "05-eqsd_up_02_00_04-250221_1723.wav"
+      >
+    >
+  >
+  <EXTENSIONS
+  >
+>
