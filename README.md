@@ -8,25 +8,18 @@ Dataset was created under [Multimedia Technology Group (MMTG)](https://mmtg.fel.
 
 ## Using the Dataset
 
-If you used the dataset in your work, please cite it as the following conference paper:
+If you used the dataset in your work, please cite it as the following [conference paper](https://ieeexplore.ieee.org/document/11008383):
 ```
-@INPROCEEDINGS{Huzv2505:Open,
-AUTHOR="Matej Huzvar and Stanislav Vitek",
-TITLE="Open Dataset for Modeling Nonlinear Systems for Electric Guitar",
-BOOKTITLE="2025 35th International Conference Radioelektronika (RADIOELEKTRONIKA)
-(RADIOELEKTRONIKA'25)",
-ADDRESS="Hnanice, Czech Republic",
-PAGES="3.91",
-ABSTRACT="A robust representative dataset is a critical component in proper training
-of any neural network. In this paper, we present a dataset designed
-specifically for training models of nonlinear systems relevant to electric
-guitar, including distortion effects and amplifiers. Our dataset, which
-reflects developments in the design of electric guitars, is carefully
-selected and ready for further extension using readily available commercial
-recording equipment. The introduced dataset consists of source audio
-signals recorded on several guitars and short synthesized samples, and
-corresponding output signals from several systems at several setting
-combinations."
+@INPROCEEDINGS{GFXSetCTU,
+  author={Huzvar, Matej and Vitek, Stanislav},
+  booktitle={2025 35th International Conference Radioelektronika (RADIOELEKTRONIKA)}, 
+  title={Open Dataset for Modeling Nonlinear Systems for Electric Guitar}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-4},
+  keywords={Training;Performance evaluation;Neural networks;Nonlinear distortion;Machine learning;Systems modeling;Cost function;Recording;Nonlinear systems;Usability;Signal Processing;Machine Learning;Neural Networks;Dataset;Nonlinear Systems;System Modeling},
+  doi={10.1109/RADIOELEKTRONIKA65656.2025.11008383}
 }
 ```
 
