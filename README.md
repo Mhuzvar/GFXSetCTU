@@ -35,7 +35,7 @@ Refer to [How to Access](#how-to-access) section for further details.
 | Boss DS-1                             | bds1     | [CTU fileshare](#how-to-access) | complete    | 37 GB     | MMTG   |
 | Earthquaker Devices Spatial Delivery  | eqsd     | TBD                             | in progress | TBD       | MMTG   |
 | EHX Lumberjack                        | lumb     | [CTU fileshare](#how-to-access) | complete    | 37 GB     | MMTG   |
-| Keeley Dark Side                      | keds     | [CTU fileshare](#how-to-access) | partial     | 37 GB     | MMTG   |
+| Keeley Dark Side                      | keds     | [CTU fileshare](#how-to-access) | partial     | 73 GB     | MMTG   |
 
 The table above only refers to labels (signals fed through the respective devices).
 The input signals can be found on [CTU provided fileshare](#how-to-access) along with the labels recorded by MMTG.
