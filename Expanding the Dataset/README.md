@@ -60,7 +60,7 @@ Once the hardware setup is complete and the input set is prepared, the process i
 
 The current folder contains `sync.py` script to simplify the post-processing as much as possible, but some human input is still necessary. It was originally expected the input and output lag could be matched using cross correlation. While cross-correlation can be used to temporally match the device outputs to each other, the input-output pair is so different in some cases, this method turned out to be too unreliable. The user needs to only set the first delay manually and the script takes care of the rest.
 
-All post-processing is performed by `sync.py` Python script in two phases. The first phase is synchronization, which requires some user input. The second phase is cutting the input into short samples, which is performed automatically.
+All post-processing is performed by `sync.py` Python script in two phases. The first phase is synchronization, which requires no user input. The second phase is cutting the input into short samples, which requires user to manually set where the signal starts. The signals are synchronized from the first phase, so the start setting only needs to be set for the first setting combination.
 
 The scripts works in the folllowing directory structure:
 ```md
