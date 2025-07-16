@@ -1,10 +1,10 @@
 '''
 This script is meant to be used in synchronization of signals when recording data for guitar amp/effect dataset under https://github.com/Mhuzvar/GFXSetCTU.
-Version: 0.2.2
+Version: 0.2.3
 
 Matej Huzvar
-huzvamat@fel.cvut.cz
-Prague, September 2024
+huzvamat (at) fel.cvut.cz
+Prague, July 2025
 '''
 
 import os
@@ -78,11 +78,23 @@ def gui_sync(sig1, sig2):
         line1, = ax.plot(sig1[startplot:min(startplot+2000, len(sig1))], 'b-')
         line2, = ax.plot(sig2[startplot:min(startplot+2000, len(sig1))], 'r-')
         plt.show()
-        newlag = int(input("Type number of samples for correction (0 to finish sync): "))
+        newlag = False
+        while isinstance(newlag, bool):
+            newlag = input("Type number of samples for correction (0 to finish sync): ")
+            try:
+                newlag = int(newlag)
+            except:
+                newlag = False
         lag += newlag
         if newlag == 0:
             return lag
-        startplot = int(input(f"Current start index: {startplot}, New start index: "))
+        startplot = False
+        while isinstance(startplot, bool):
+            startplot = input(f"Current start index: {startplot}, New start index: ")
+            try:
+                startplot = int(startplot)
+            except:
+                startplot = False
         sig2 = np.roll(sig2, -newlag)
 
 def nudge_file(filename, indir, outdir, n):
@@ -155,6 +167,7 @@ def sync_folder(instfile, indir, outdir):       # finish
         syncdata = sdata(filelist)
 
         i = 0
+        nudgemax = 0
         for i, f in enumerate(filelist):
             j = syncdata.devs.index(f[3:7])
             idx = syncdata.data[j].find_idx(f[8:-16])
@@ -189,9 +202,11 @@ def sync_folder(instfile, indir, outdir):       # finish
                     sig = sig[nudge:]
                 elif nudge<0:
                     sig = np.insert(sig, 0, np.zeros(-nudge))
+                    nudgemax = max(-nudge, nudgemax)
                 syncdata.data[j].synced[idx]=True
             
             sf.write(os.path.join(outdir, f), sig, fs)
+    print(f'Minimum lag expected is {nudgemax}.')
 
 def cut_folder(instfile, indir, outdir, lvls):
     n, fs = sf.read('dataset/raw/noise.wav')
@@ -245,8 +260,16 @@ def main():
     outdir = 'dataset/labels'
     lendatapath = 'dataset/siglens.txt'
 
-    print("\n============\nWarning!\nThis program works with unchecked inputs! Make sure inputs are in correct format and of reasonable values.\n============\n")
-    mode = int(input("Modes:\n0 = synchronization\n1 = finalizing synchronized folder\nSelect one: "))
+    mode = 2
+    while mode>1:
+        mode = input("Modes:\n0 = synchronization\n1 = finalizing synchronized folder\nSelect one: ")
+        try:
+            mode = int(mode)
+        except:
+            mode = 2
+        if mode not in range(2):
+            print('Incorrect input!')
+            mode = 2
     if not mode:
         if not(os.path.isdir(outdir)):
             os.makedirs(syncdir)
